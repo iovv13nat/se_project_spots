@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
 .footer__copyright {
   padding: 60px 0;
