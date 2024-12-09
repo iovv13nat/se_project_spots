@@ -30,7 +30,7 @@ For our project we exported images directly from Figma.
 
 This webpage is deployed to GitHub pages:
 
-- Deployment link:
+- [Deployment link:](https://iovv13nat.github.io/se_project_spots/)
 
 ## Images and Video
 
