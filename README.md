@@ -36,12 +36,3 @@ This webpage is deployed to GitHub pages:
 
 - A short description of the project functionality could be found in the following link:
   [GoogleDrive link](https://drive.google.com/file/d/1EhSuVIfOYYzJUfqfrG9GvfSiSjsZSDEG/view?usp=sharing)
-
-The website display at the device width 1440px:
-![Webpage at the width 1440px](<images/responsive1440px .png>)
-
-The website display at the device width 890px:
-![Webpage at the width 890px](images/responsive890px.png)
-
-The website display at the device width 320px:
-![Webpage at the width 320px](images/responsive320px.png)
