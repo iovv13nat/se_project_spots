@@ -15,7 +15,8 @@
 }
 
 .card__like-btn {
-  background-image: url(../images/like.svg);
+  background-image: url(../images/like-icon.svg);
+  background-size: contain;
   width: 23px;
   height: 20px;
   border: none;
@@ -38,10 +39,6 @@
   white-space: nowrap;
   max-width: 353px;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  max-width: 420px;
 }
 @media screen and (max-width: 627px) {
   .card__image {
@@ -55,7 +52,6 @@
   }
 
   .card__like-btn {
-    background-image: url(../images/like2.svg);
     width: 20px;
     height: 18px;
   }
