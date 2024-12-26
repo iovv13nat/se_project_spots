@@ -14,7 +14,7 @@
   padding: 0 16px;
 }
 
-.modal__opened {
+.modal_opened {
   visibility: visible;
 }
 
@@ -26,6 +26,7 @@
   padding: 32px 50px;
   margin: 0;
   position: relative;
+  border-radius: 8px;
 }
 
 .modal__close-btn {
