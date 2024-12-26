@@ -14,7 +14,8 @@ The project is designed to be responsive on different screen sizes, all the elem
 - Responsive Design
 - Display grid
 - BEM
-  -Media queries
+- Media queries
+- Javascript
 
 ## **Figma**
 
