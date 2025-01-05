@@ -86,6 +86,10 @@
   color: #fcf5e5;
   padding: 18px 0;
 }
+.modal__submit-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
 
 @media screen and (max-width: 627px) {
   .modal {
