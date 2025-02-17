@@ -1,4 +1,14 @@
+import "./index.css";
+import {
+  enableValidation,
+  settings,
+  setEventListeners,
+  resetValidation,
+  disableButton,
+} from "../scripts/validation.js";
+
 const initialCards = [
+  ,
   {
     name: "Val Thorens",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
@@ -158,3 +168,4 @@ function handleNewCardSubmit(evt) {
 
 editFormElem.addEventListener("submit", handleEditFormSubmit);
 newCardFormModal.addEventListener("submit", handleNewCardSubmit);
+enableValidation(settings);

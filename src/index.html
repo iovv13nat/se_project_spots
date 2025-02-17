@@ -7,18 +7,22 @@
     <meta name="description" content="" />
     <meta name="keywords" content="HTML CSS " />
     <title>Spots</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.svg" alt="Spot logo" class="header__logo" />
+        <img
+          src="<%=require('./images/logo.svg')%>"
+          alt="Spot logo"
+          class="header__logo"
+        />
       </header>
       <main class="content">
         <section class="profile page__section">
           <img
-            src="./images/avatar.jpg"
+            src="<%=require('./images/avatar.jpg')%>"
             alt="Bessie Coleman"
             class="profile__avatar"
           />
@@ -27,7 +31,7 @@
             <p class="profile__description">Civil Aviator</p>
             <button type="button" class="profile__edit-btn">
               <img
-                src="./images/pensil.svg"
+                src="<%=require('./images/pensil.svg')%>"
                 alt="Pensil icon"
                 class="profile__pensil-icon"
               />Edit Profile
@@ -35,7 +39,7 @@
           </div>
           <button type="button" class="profile__add-btn">
             <img
-              src="./images/plus.svg"
+              src="<%=require('./images/plus.svg')%>"
               alt="Plus icon"
               class="profile__plus-icon"
             />
@@ -151,7 +155,5 @@
         </div>
       </div>
     </div>
-    <script src="./scripts/validation.js" defer></script>
-    <script src="./scripts/index.js" defer></script>
   </body>
 </html>
